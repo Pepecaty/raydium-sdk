@@ -1,25 +1,25 @@
 {
-  "name": "my-raydium-wrapper", // Choose a unique name for your package
+  "name": "my-raydium-wrapper", 
   "version": "1.0.0",
   "description": "A wrapper for the Raydium SDK",
-  "main": "dist/index.js", // Where your main entry point will be
-  "types": "dist/index.d.ts", // Where your type definitions will be
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts", 
   "scripts": {
     "build": "tsc && tsup src/index.ts --format cjs,esm --dts --sourcemap --no-splitting --minify -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/my-raydium-wrapper.git" // Replace with your repository URL
+    "url": "git+https://github.com/imranMjbCro/raydium-sdk-V2.git" 
   },
-  "author": "Your Name",
+  "author": "imranMjbCro",
   "license": "MIT",
   "devDependencies": {
-    "tsup": "^6.7.0", // Or the latest version of tsup
-    "typescript": "^5.0.4" // Or the latest version of TypeScript
+    "tsup": "^6.7.0", 
+    "typescript": "^5.0.4" /
   },
   "dependencies": {
-    "@solana/web3.js": "^1.88.0", // Or your desired version of @solana/web3.js
-    "@raydium-io/raydium-sdk-v2": "^x.x.x" // The Raydium SDK version you want to use
+    "@solana/web3.js": "^1.88.0", 
+    "@raydium-io/raydium-sdk-v2": "^0.1.35-alpha" 
   }
 }
